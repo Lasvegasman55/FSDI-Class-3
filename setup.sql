@@ -1,5 +1,5 @@
 --How to drop tables:
---drop table task:
+--DROP TABLE task:
 
 -- Create our table:
 

@@ -15,7 +15,7 @@ def output_formatter(results):
 
 def scan():
     conn = get_db()
-    cursor = conn.execute("SELECT * FROM task WHERE is_done=0")  # Removed empty tuple
+    cursor = conn.execute("SELECT * FROM task WHERE is_done=0") 
     results = cursor.fetchall()
     cursor.close()
     return output_formatter(results)
